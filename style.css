@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background-color: #f44336;
 }
 .container{
     width: 100%;
@@ -9,7 +10,7 @@ body{
     margin-top: 7%;
 }
 #title{
-    color: tomato;
+    color:  rgb(11, 88, 41);
     font-size: 45px;
     text-align: center;
 
@@ -31,15 +32,15 @@ body{
     outline: none;
     vertical-align: middle;
     border: 1px solid;
-    background: rgb(2, 245, 14);
+    background: rgb(11, 88, 41);
     color: #fff;
     font-size: 20px;
 }
 #toDoAdd:hover{
-    background: rgb(2, 245, 14, 0.5);
+    background: rgb(11, 88, 41, 0.5);
     color: #000;
     cursor: pointer;
-    border-color:rgb(2, 245, 14, 0.5) ;
+    border-color:rgb(11, 88, 41, 0.5) ;
 
 }
 #toDoClear {
@@ -64,9 +65,16 @@ body{
 }
 
 .paragraph-styling{
-    margin: 0;
+    margin: 3px;
     cursor: pointer;
     font-size: 30px;
     color: purple;
     text-transform: capitalize;
+    border: 2px solid tomato;
+    height: 35px;
+    vertical-align: middle;
+    text-align: center;
+}
+span{
+   color: rgba(148, 5, 5)
 }
